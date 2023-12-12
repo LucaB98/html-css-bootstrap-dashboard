@@ -1,8 +1,19 @@
 a{
     text-decoration: none;
+    color: white;
 }
 
+.bg-blue{
+    background-color: #1B72E8;
+}
 
+.bg-dark-blue{
+    background-color: #165BBA;
+}
+
+.rounded-pill{
+    font-size: 12px;
+}
 
 .navbar{
     height: 60px;
@@ -43,6 +54,16 @@ a{
     flex-grow: 1;
     background-color: blueviolet;
     overflow: auto;
+}
+
+.header-main .row{
+    width: 100%;
+}
+
+.fa-square-plus{
+    font-size: 50px;
+    color: white;
+    padding: 0;
 }
 
 @media screen and (min-width: 992px){
