@@ -1,12 +1,20 @@
-#header{
-    height: 100px;
-    background-color: blue;
+a{
+    text-decoration: none;
 }
 
 
+
+.navbar{
+    height: 60px;
+}
+
+.fa-bell{
+    color: #FF8F00;
+}
+
 .dashboard{
     display: flex;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
 }
 
 .sidebar{
@@ -15,8 +23,30 @@
     flex-shrink: 0;
 }
 
+
+.sidebar .side-nav{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.side-nav a{
+    color: white;
+}
+
+.side-nav li{
+    margin: 10px 0;
+}
+
 #main{
     flex-grow: 1;
     background-color: blueviolet;
     overflow: auto;
+}
+
+@media screen and (min-width: 992px){
+    .sidebar{
+        width: 120px;
+    }
 }
