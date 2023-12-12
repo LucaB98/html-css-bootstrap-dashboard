@@ -1,0 +1,22 @@
+#header{
+    height: 100px;
+    background-color: blue;
+}
+
+
+.dashboard{
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+.sidebar{
+    width: 60px;
+    background-color: black;
+    flex-shrink: 0;
+}
+
+#main{
+    flex-grow: 1;
+    background-color: blueviolet;
+    overflow: auto;
+}
